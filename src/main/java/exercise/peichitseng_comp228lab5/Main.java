@@ -745,6 +745,7 @@ public class Main extends Application {
             Class.forName("oracle.jdbc.driver.OracleDriver");
             System.out.println("> Driver Loaded successfully.");
             //establish a connection
+            System.out.println("--------");
             con = DriverManager.getConnection(DBURL,username, password);
             System.out.println("> Database connected successfully.");
         }
